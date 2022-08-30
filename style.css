@@ -12,6 +12,14 @@ h1 {
     margin: 0 0 20px;
 }
 
+h2 {
+    color: #1f2937;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 0 0 40px;
+    text-align: center;
+}
+
 a {
     color: #e5e7eb;
     text-decoration: none;
@@ -97,6 +105,36 @@ img {
     border-radius: 5px;
     color: #fff;
     padding: 5px 20px;
+}
+
+.info {
+    margin: 40px auto 95px;
+    max-width: 690px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card--img {
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+    direction: rtl;
+    height: 150px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 150px;
+}
+
+.card img {
+    height: 150px;
+    max-width: none;
+    width: auto;
 }
 
 .footer {
