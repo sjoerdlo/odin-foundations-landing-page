@@ -111,7 +111,17 @@ blockquote {
     border: 0;
     border-radius: 5px;
     color: #fff;
-    padding: 5px 20px;
+    cursor: pointer;
+    padding: 8px 25px;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #1f2937;
+}
+
+.btn-border {
+    border: 1px solid #fff;
 }
 
 .info {
@@ -159,6 +169,29 @@ blockquote {
     font-weight: 700;
     margin: 0 50px 0 0;
     text-align: right;
+}
+
+.cta {
+    align-items: center;
+    background-color: #3882f6;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    margin: 80px 175px;
+}
+
+.cta h2 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+.cta p {
+    margin: 0;
 }
 
 .footer {
